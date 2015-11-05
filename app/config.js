@@ -10,10 +10,10 @@ define([], function() {
 
         $routeProvider
             .when('/', {
-                templateUrl: '/templates/page.html'
+                templateUrl: 'templates/page.html'
             })
             .otherwise({
-                templateUrl: '/templates/page.html'
+                templateUrl: 'templates/page.html'
             });
     }
 

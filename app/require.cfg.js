@@ -2,7 +2,7 @@
  * Created by THANH BINH on 10/17/2015.
  */
 require.config({
-    'baseUrl': '/app',
+    'baseUrl': 'app',
     paths:{
         'angular': '../node_modules/angular/angular.min',
         'angular-route': '../node_modules/angular-route/angular-route.min',
