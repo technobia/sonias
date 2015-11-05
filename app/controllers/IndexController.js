@@ -12,7 +12,7 @@ define(function(require) {
     }
 
     IndexController.prototype.onLoad = function() {
-        console.log('Mother Fucker! Your need login first');
+        console.log('Mother Fucker! Welcome to the first');
     };
 
     return IndexController;

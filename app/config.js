@@ -1,7 +1,7 @@
 /**
  * Created by THANH BINH on 10/17/2015.
  */
-define([], function() {
+define(function() {
     function config($routeProvider, $locationProvider) {
         $locationProvider.html5Mode({
             enabled: false,
@@ -11,6 +11,9 @@ define([], function() {
         $routeProvider
             .when('/', {
                 templateUrl: 'templates/page.html'
+            })
+            .when('/test', {
+                templateUrl: 'templates/test.html'
             })
             .otherwise({
                 templateUrl: 'templates/page.html'

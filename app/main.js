@@ -5,6 +5,6 @@ require(['app'],
     function() {
         'use strict';
 
-        angular.bootstrap(document, ['vtsolutionBackend']);
+        angular.bootstrap(document, ['sonias']);
     }
 );
