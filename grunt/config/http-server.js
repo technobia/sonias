@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         dev: {
             root: '.',
             host: '0.0.0.0',
-            port: '9000',
+            port: '80',
             cache: 0, // no cache!
             showDir: false,
             autoIndex: false,
