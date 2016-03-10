@@ -2116,7 +2116,7 @@ margin-left: 15px;
 .shareMenu {
   position: fixed;
   top: 2.4375em;
-  left: 0;
+  right: 0;
   z-index: 101;
   width: 100%;
   background: #1b2021;
@@ -2183,7 +2183,7 @@ margin-left: 15px;
   .shareMenu {
     top: auto;
     left: auto !important;
-    right: -385px !important;
+    right: 0;
     bottom: 0;
     width: 450px;
     height: 3.75em;
@@ -2226,7 +2226,7 @@ margin-left: 15px;
     margin: 12px 7.5px !important;
   }
   .shareMenu.open {
-    right: 0 !important;
+    right: -385px !important;
   }
 }
 
