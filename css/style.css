@@ -1106,6 +1106,15 @@ main {
   color: white;
   margin-top: 8px;
 }
+
+.pageHeader .headerLogo .icon-sonias:before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: url(../images/sonias.png);
+    background-size: cover;
+    display: inline-block;
+}
 .pageHeader .headerLogo .text {
   display: none;
 }
