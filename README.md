@@ -1,4 +1,4 @@
-Luxury
+Sonias
 ======
 
-A Responsive Template for Real Estate Business 
+A Responsive website
